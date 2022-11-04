@@ -1,0 +1,6 @@
+devel_space: /home/hardik/team_4/rotor_ws/devel
+install: false
+install_space: /home/hardik/team_4/rotor_ws/install
+profile: default
+source_space: /home/hardik/team_4/rotor_ws/src
+workspace: /home/hardik/team_4/rotor_ws

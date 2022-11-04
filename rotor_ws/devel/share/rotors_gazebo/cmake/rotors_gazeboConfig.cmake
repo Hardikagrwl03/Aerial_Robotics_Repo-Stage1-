@@ -1,0 +1,1 @@
+/home/hardik/team_4/rotor_ws/devel/.private/rotors_gazebo/share/rotors_gazebo/cmake/rotors_gazeboConfig.cmake

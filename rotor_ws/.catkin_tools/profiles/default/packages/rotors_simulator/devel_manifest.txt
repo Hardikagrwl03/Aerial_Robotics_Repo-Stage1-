@@ -1,0 +1,2 @@
+rotors_simulator/rotors_simulator
+/home/hardik/team_4/rotor_ws/devel/.private/rotors_simulator/cmake.lock /home/hardik/team_4/rotor_ws/devel/./cmake.lock

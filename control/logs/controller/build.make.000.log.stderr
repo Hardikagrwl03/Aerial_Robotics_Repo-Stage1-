@@ -1,0 +1,4 @@
+make[2]: *** No rule to make target '/home/hardik/team_4/control/src/controller/models/rotors_description/urdf/component_snippets.xacro', needed by '/home/hardik/team_4/control/src/controller/models/iris/iris.sdf'.  Stop.
+make[1]: *** [CMakeFiles/Makefile2:1143: CMakeFiles/sdf.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2

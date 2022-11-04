@@ -1,0 +1,1 @@
+/home/hardik/team_4/rotor_ws/devel/.private/mav_msgs/share/roseus/ros/mav_msgs/msg/Status.l

@@ -1,0 +1,6 @@
+Symlinking /home/hardik/team_4/rotor_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
+Symlinking /home/hardik/team_4/rotor_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
+Symlinking /home/hardik/team_4/rotor_ws/devel/lib/python3/dist-packages/rqt_rotors/__init__.py
+Symlinking /home/hardik/team_4/rotor_ws/devel/lib/pkgconfig/rqt_rotors.pc
+Symlinking /home/hardik/team_4/rotor_ws/devel/bin/cmake.lock
+Symlinking /home/hardik/team_4/rotor_ws/devel/bin/hil_plugin

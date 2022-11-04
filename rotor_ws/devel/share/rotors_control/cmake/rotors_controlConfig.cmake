@@ -1,0 +1,1 @@
+/home/hardik/team_4/rotor_ws/devel/.private/rotors_control/share/rotors_control/cmake/rotors_controlConfig.cmake

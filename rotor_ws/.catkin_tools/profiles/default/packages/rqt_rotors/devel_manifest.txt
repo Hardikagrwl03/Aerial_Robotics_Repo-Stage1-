@@ -1,0 +1,8 @@
+rotors_simulator/rqt_rotors
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/cmake.lock /home/hardik/team_4/rotor_ws/devel/./cmake.lock
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake /home/hardik/team_4/rotor_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig-version.cmake
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake /home/hardik/team_4/rotor_ws/devel/share/rqt_rotors/cmake/rqt_rotorsConfig.cmake
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/lib/python3/dist-packages/rqt_rotors/__init__.py /home/hardik/team_4/rotor_ws/devel/lib/python3/dist-packages/rqt_rotors/__init__.py
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/lib/pkgconfig/rqt_rotors.pc /home/hardik/team_4/rotor_ws/devel/lib/pkgconfig/rqt_rotors.pc
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/bin/cmake.lock /home/hardik/team_4/rotor_ws/devel/bin/cmake.lock
+/home/hardik/team_4/rotor_ws/devel/.private/rqt_rotors/bin/hil_plugin /home/hardik/team_4/rotor_ws/devel/bin/hil_plugin

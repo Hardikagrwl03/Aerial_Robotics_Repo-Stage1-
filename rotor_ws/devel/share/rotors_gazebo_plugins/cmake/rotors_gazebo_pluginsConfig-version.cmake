@@ -1,0 +1,1 @@
+/home/hardik/team_4/rotor_ws/devel/.private/rotors_gazebo_plugins/share/rotors_gazebo_plugins/cmake/rotors_gazebo_pluginsConfig-version.cmake

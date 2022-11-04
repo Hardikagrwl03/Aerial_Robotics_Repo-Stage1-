@@ -1,0 +1,127 @@
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:23:29:[m[K [01;31m[Kerror: [m[K‘[01m[Ksize[m[K’ was not declared in this scope
+   23 |    while(ros::ok() && x<=X[([01;31m[Ksize[m[K(X)-1)]){
+      |                             [01;31m[K^~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:23:29:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/usr/include/boost/range/functions.hpp:20[m[K,
+                 from [01m[K/usr/include/boost/range/iterator_range_core.hpp:38[m[K,
+                 from [01m[K/usr/include/boost/lexical_cast.hpp:30[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/transport_hints.h:34[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/subscribe_options.h:33[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:42[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:45[m[K,
+                 from [01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:3[m[K:
+[01m[K/usr/include/boost/range/size.hpp:55:5:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::size[m[K’
+   55 |     [01;36m[Ksize[m[K(const SinglePassRange& rng)
+      |     [01;36m[K^~~~[m[K
+In file included from [01m[K/usr/include/boost/mpl/list/aux_/size.hpp:17[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list0.hpp:25[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list10.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list/list20.hpp:18[m[K,
+                 from [01m[K/usr/include/boost/mpl/list.hpp:36[m[K,
+                 from [01m[K/usr/include/boost/math/policies/policy.hpp:9[m[K,
+                 from [01m[K/usr/include/boost/math/policies/error_handling.hpp:21[m[K,
+                 from [01m[K/usr/include/boost/math/special_functions/round.hpp:14[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/time.h:58[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/ros.h:38[m[K,
+                 from [01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:3[m[K:
+[01m[K/usr/include/boost/mpl/size_fwd.hpp:20:38:[m[K [01;36m[Knote: [m[K  ‘[01m[Kboost::mpl::size[m[K’
+   20 | template< typename Sequence > struct [01;36m[Ksize[m[K;
+      |                                      [01;36m[K^~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:25:28:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kmsg[m[K’
+   25 |       msg.pose.position.x=x
+      |                            [01;31m[K^[m[K
+      |                            [32m[K;[m[K
+   26 |       [32m[Kmsg[m[K.pose.position.y=f(x);
+      |       [32m[K~~~[m[K                   
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:27:16:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry_msgs::PoseStamped_<std::allocator<void> >::_pose_type[m[K’ {aka ‘[01m[Kstruct geometry_msgs::Pose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kpoaition[m[K’; did you mean ‘[01m[Kposition[m[K’?
+   27 |       msg.pose.[01;31m[Kpoaition[m[K.z=g(x);
+      |                [01;31m[K^~~~~~~~[m[K
+      |                [32m[Kposition[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:3[m[K:
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 8 has type ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   29 |       ROS_INFO([01;35m[K"%d %d %d\n"[m[K, [32m[Kmsg.pose.position.x[m[K, msg.pose.position.y, msg.pose.position.z);
+      |                [01;35m[K^~~~~~~~~~~~[m[K  [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                [32m[K|[m[K
+      |                                                [32m[Kgeometry_msgs::Point_<std::allocator<void> >::_x_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   29 |       [01;36m[KROS_INFO[m[K("%d %d %d\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:18:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |       ROS_INFO("[01;36m[K%d[m[K %d %d\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |                 [01;36m[K~^[m[K
+      |                  [01;36m[K|[m[K
+      |                  [01;36m[Kint[m[K
+      |                 [32m[K%f[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:3[m[K:
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 9 has type ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   29 |       ROS_INFO([01;35m[K"%d %d %d\n"[m[K, msg.pose.position.x, [32m[Kmsg.pose.position.y[m[K, msg.pose.position.z);
+      |                [01;35m[K^~~~~~~~~~~~[m[K                       [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                     [32m[K|[m[K
+      |                                                                     [32m[Kgeometry_msgs::Point_<std::allocator<void> >::_y_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   29 |       [01;36m[KROS_INFO[m[K("%d %d %d\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:21:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |       ROS_INFO("%d [01;36m[K%d[m[K %d\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |                    [01;36m[K~^[m[K
+      |                     [01;36m[K|[m[K
+      |                     [01;36m[Kint[m[K
+      |                    [32m[K%f[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/ros.h:40[m[K,
+                 from [01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:3[m[K:
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:16:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%d[m[K’ expects argument of type ‘[01m[Kint[m[K’, but argument 10 has type ‘[01m[Kgeometry_msgs::Point_<std::allocator<void> >::_z_type[m[K’ {aka ‘[01m[Kdouble[m[K’} [[01;35m[K-Wformat=[m[K]
+   29 |       ROS_INFO([01;35m[K"%d %d %d\n"[m[K, msg.pose.position.x, msg.pose.position.y, [32m[Kmsg.pose.position.z[m[K);
+      |                [01;35m[K^~~~~~~~~~~~[m[K                                            [32m[K~~~~~~~~~~~~~~~~~~~[m[K
+      |                                                                                          [32m[K|[m[K
+      |                                                                                          [32m[Kgeometry_msgs::Point_<std::allocator<void> >::_z_type {aka double}[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:390:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  390 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:575:35:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_COND[m[K’
+  575 | #define ROS_LOG(level, name, ...) [01;36m[KROS_LOG_COND[m[K(true, level, name, __VA_ARGS__)
+      |                                   [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:110:23:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG[m[K’
+  110 | #define ROS_INFO(...) [01;36m[KROS_LOG[m[K(::ros::console::levels::Info, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                       [01;36m[K^~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_INFO[m[K’
+   29 |       [01;36m[KROS_INFO[m[K("%d %d %d\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/home/hardik/team_4/control/src/trajectory/src/trajectory_pub.cpp:29:24:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   29 |       ROS_INFO("%d %d [01;36m[K%d[m[K\n", msg.pose.position.x, msg.pose.position.y, msg.pose.position.z);
+      |                       [01;36m[K~^[m[K
+      |                        [01;36m[K|[m[K
+      |                        [01;36m[Kint[m[K
+      |                       [32m[K%f[m[K
+make[2]: *** [CMakeFiles/trajectory_pub.dir/build.make:76: CMakeFiles/trajectory_pub.dir/src/trajectory_pub.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:501: CMakeFiles/trajectory_pub.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2
